@@ -1,0 +1,26 @@
+{
+    "defaultSeverity": "warning",
+    "extends": [
+        "tslint:recommended",
+        "tslint-eslint-rules"
+    ],
+    "jsRules": {},
+    "rules": {
+        "ordered-imports": true,
+        "quotemark": [true, "single", "avoid-template", "avoid-escape"],
+        "object-curly-spacing": [true, "always"],
+        "origin-ordered-imports": [true, "one-blank-line"],
+        "object-literal-sort-keys": false,
+        "max-classes-per-file": false,
+        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
+        "no-shadowed-variable": true,
+        "curly": [true, "ignore-same-line"],
+        "no-console": false,
+        "no-unused-expression": true,
+        "no-unused-variable": true,
+        "interface-name": true,
+        "no-return-await": true,
+        "no-require-imports": true,
+        "no-multi-spaces": true
+    }
+}
